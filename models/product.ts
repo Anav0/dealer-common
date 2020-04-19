@@ -3,15 +3,19 @@ import {Producer} from "./producer";
 import {Category} from "./category";
 
 export class Product {
+    // @ts-ignore
     _id: string;
 
     @prop({ required: true })
+    // @ts-ignore
     desc: string;
 
     @prop({ required: true })
+    // @ts-ignore
     name: string;
 
     @prop({ required: true })
+    // @ts-ignore
     price: number;
 
     @prop({ ref: Producer, required: true })
