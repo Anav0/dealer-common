@@ -19,7 +19,7 @@ export class Product {
     price: number;
 
     @prop({ required: true })
-        // @ts-ignore
+    // @ts-ignore
     image: string;
 
     @prop({ ref: Producer, required: true })
