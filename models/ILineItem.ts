@@ -1,3 +1,7 @@
+/*
+ WZORZEZ ADAPTER
+ Interfejs określający parametry przedmiotów które można kupić. Wykorzystywany przez bibliotekę płatniczą stripe.
+*/
 export interface ILineItem {
     /**
      * The amount to be collected per unit of the line item.
