@@ -34,10 +34,6 @@ export class Product {
         // @ts-ignore
     category: Ref<Producer>;
 
-    @prop({ required: true })
-    // @ts-ignore
-    image: string;
-
 }
 
 export const ProductModel = getModelForClass(Product);
